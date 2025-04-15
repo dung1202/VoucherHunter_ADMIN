@@ -54,13 +54,13 @@ const Login = (props) => {
       <input
         style={{ padding: 10, marginBottom: 20 }}
         type="text"
-        placeholder="username"
+        placeholder="username (test: admin12345)"
         onChange={(e) => setUsername(e.target.value)}
       />
       <input
         style={{ padding: 10, marginBottom: 20 }}
         type="password"
-        placeholder="password"
+        placeholder="password (test: admin12345)"
         onChange={(e) => setPassword(e.target.value)}
         onKeyUp={(e) => {
           if (e.keyCode === 13) {
